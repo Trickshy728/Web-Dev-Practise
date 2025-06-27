@@ -1,0 +1,106 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+
+    padding-left: 16;
+    padding-right: 16;
+    padding-top: 10;
+    padding-bottom: 10;
+
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+  .subscribe-button:active{
+    opacity: 0.6;
+  }
+
+
+  .Join-button
+  {
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+
+    padding-left: 15;
+    padding-right: 15;
+    padding-top: 9;
+    padding-bottom: 9;
+
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: top;
+
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .Join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+  .Join-button:active{
+    opacity: 0.7;
+  }
+
+
+  .tweet-button
+  {
+    background-color: rgb(29, 155, 240);
+    color: rgb(255, 255, 255);
+
+    padding-left: 16;
+    padding-right: 16;
+    padding-top: 7;
+    padding-bottom: 7;
+
+    border-radius: 18px;
+    border-style: none;
+    border-width: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: top;
+
+    transition: box-shadow 0.15s;
+  }
+  .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .tweet-button:active{
+    opacity: 0.8;
+  }
+
+  .post{
+    background-color: rgb(96, 31, 199);
+    color: rgb(255, 255, 255);
+
+    padding-left: 16;
+    padding-right: 16;
+    padding-top: 10;
+    padding-bottom: 10;
+
+    border-radius: 2px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    vertical-align: top;
+    transition: padding-left 0.4s, padding-right 0.4s, 
+    padding-top 0.4s, padding-bottom 0.4s;
+  }
+  .post:hover{
+    padding-left: 32;
+    padding-right: 32;
+    padding-top: 20;
+    padding-bottom: 20;
+  }
+  .post:active{
+    opacity: 0.8;
+  }
