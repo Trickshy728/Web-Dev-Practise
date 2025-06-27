@@ -1,0 +1,38 @@
+p{
+    font-family: Edu SA Hand;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    width: 250px;
+  }
+  .heading{
+    font-weight: bold;
+    font-size: 20;
+    margin-bottom: 2px;
+  }
+  .level{
+    color: rgba(128, 128, 128, 0.854);
+    margin-bottom: 18px
+  }
+  .start-button{
+    background-color: green;
+    border-radius: 6px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: white;
+  }
+  .start-button:hover{
+    opacity: 0.75;
+  }
+  .start-button:active{
+    opacity: 0.5;
+  }
+  .highlight{
+    color:rgb(0, 153, 255);
+  }
+  .highlight:hover{
+    text-decoration-line: underline;
+  }
